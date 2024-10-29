@@ -1,0 +1,148 @@
+.appointment_table {
+  border: 1px solid #1a1d21;
+  border-radius: 12px;
+  margin-bottom: 4rem;
+  max-width: max-content;
+  background-color: #353535;
+}
+
+.table_header {
+  background-color: #454545;
+  border: 1px solid #454545;
+  border-radius: 12px;
+}
+
+.thr {
+  display: grid;
+  grid-template-columns: 16rem 25rem 21rem;
+  align-items: center;
+}
+
+.thd {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  text-align: left;
+  color: #cdcecf;
+  padding: 1.2rem 1.4rem;
+}
+
+.thr:first-child {
+  padding-left: 2.2rem !important;
+}
+
+.tr {
+  display: grid;
+  grid-template-columns: 16rem 25rem 21rem;
+  padding: 0 1.5rem;
+  background-color: #353535;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.td {
+  padding: 1.6rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  color: #e8e9e9;
+}
+
+.table_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.arrow {
+  font-size: 2.2rem;
+}
+
+.table_footer button {
+  background-color: #282b30;
+  color: #e8e9e9;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.table_footer button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pageNumber {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #282b30;
+  color: #e8e9e9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.pageNumber p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.pageNumber:hover {
+  background-color: #3c4045;
+}
+
+.active {
+  background-color: #1d72b8;
+  color: #ffffff;
+}
+
+@media (max-width: 740px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .thr {
+    grid-template-columns: 12rem 21rem 17rem;
+  }
+  .tr {
+    grid-template-columns: 12rem 21rem 17rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .thr {
+    grid-template-columns: 9rem 20rem 17rem;
+  }
+  .tr {
+    grid-template-columns: 9rem 20rem 17rem;
+  }
+}
+
+@media (max-width: 260px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .thr {
+    grid-template-columns: 8rem 17rem 15rem;
+  }
+  .tr {
+    grid-template-columns: 8rem 17rem 15rem;
+  }
+}

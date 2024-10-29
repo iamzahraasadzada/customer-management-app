@@ -1,0 +1,74 @@
+.customerForm {
+  background-color: #a9a9a9;
+  padding: 4rem;
+  width: 60%;
+  border-radius: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.customerForm p {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form_row input {
+  color: #353535;
+  background-color: #ffffff;
+  padding: 0.8rem;
+  border-radius: 9px;
+  border: 1px solid #353535;
+  font-size: 1.8rem;
+}
+
+.button {
+  background-color: black;
+  color: #ffffff;
+  margin-top: 2rem;
+  border-radius: 9px;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.button:hover {
+  background-color: #2e2f30;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem !important;
+  margin-top: 0.4rem !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .customerForm {
+    background-color: #a9a9a9;
+    padding: 4rem;
+    width: 80%;
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

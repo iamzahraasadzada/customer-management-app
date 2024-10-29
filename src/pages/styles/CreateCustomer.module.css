@@ -1,0 +1,26 @@
+.createCustomer {
+  width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 4.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header p {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0;
+  }
+}

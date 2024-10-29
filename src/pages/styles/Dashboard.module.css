@@ -1,0 +1,30 @@
+.dashboard {
+  width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 4.5rem 4rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.header p {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 740px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
